@@ -3,7 +3,7 @@
 # Ход работы
 ## Настройка VirtualBox
 Ознакомление и установка дистрибутива Linux на виртуальную машину.
-![Oracle VM](https://bmstu.codes/iu8/bsbd/2021/63/ovsepyan/bsbd-lab-01/-/raw/master/img/VB.PNG)
+![Oracle VM](https://raw.githubusercontent.com/ARAOvsepyan/BSBD/main/LR1/img/VB.PNG)
 ## Работа с дисками
 После начала установки необходимо произвести разбиение диска на разделы, для этого используется утилита `fdisk`.
 ```
@@ -36,7 +36,7 @@ swapon /dev/sda2
 ```
 Результат:
 
-![partisions](https://bmstu.codes/iu8/bsbd/2021/63/ovsepyan/bsbd-lab-01/-/raw/master/img/partisions.PNG)
+![partisions](https://raw.githubusercontent.com/ARAOvsepyan/BSBD/main/LR1/img/partisions.PNG)
 
 ## Установка ОС
 Установка операционной системы производится с помощью утилиты `pacstrap`.
@@ -148,9 +148,9 @@ systemctl enable sshd
 ```
 Результат настройки **SSH**.
 
-![](https://bmstu.codes/iu8/bsbd/2021/63/ovsepyan/bsbd-lab-01/-/raw/master/img/ssh_check.PNG)
+![](https://raw.githubusercontent.com/ARAOvsepyan/BSBD/main/LR1/img/ssh_check.PNG)
 
-![](https://bmstu.codes/iu8/bsbd/2021/63/ovsepyan/bsbd-lab-01/-/raw/master/img/ssh_check_1.png)
+![](https://raw.githubusercontent.com/ARAOvsepyan/BSBD/main/LR1/img/ssh_check_1.png)
 
 ## Установка XORG и KDE Plasma
 Установка XORG и KDE Plasma как рабочего окружения.
@@ -165,9 +165,9 @@ reboot
 ```
 Результат установки KDE Plasma
 
-![](https://bmstu.codes/iu8/bsbd/2021/63/ovsepyan/bsbd-lab-01/-/raw/master/img/kde.PNG)
+![](https://raw.githubusercontent.com/ARAOvsepyan/BSBD/main/LR1/img/kde.PNG)
 
-![](https://bmstu.codes/iu8/bsbd/2021/63/ovsepyan/bsbd-lab-01/-/raw/master/img/KDE_Desktop.PNG)
+![](https://raw.githubusercontent.com/ARAOvsepyan/BSBD/main/LR1/img/KDE_Desktop.PNG)
 
 Также необходимо поставить браузер и произвести установку Clion.
 
@@ -183,7 +183,7 @@ rm Downloads/jetbrains-toolbox-1.20.7940.tar.gz
 cd jetbrains-toolbox-1.20.7940
 ./jetbrains-toolbox
 ```
-![](https://bmstu.codes/iu8/bsbd/2021/63/ovsepyan/bsbd-lab-01/-/raw/master/img/clion.PNG)
+![](https://raw.githubusercontent.com/ARAOvsepyan/BSBD/main/LR1/img/clion.PNG)
 
 # Вывод
 
