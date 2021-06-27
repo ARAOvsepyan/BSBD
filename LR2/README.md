@@ -151,7 +151,7 @@ int main ()
 
 Результат выполнения:
 
-![](https://raw.githubusercontent.com/ARAOvsepyan/BSBD/main/LR2/img/task1.PNG/task1.PNG)
+![](https://raw.githubusercontent.com/ARAOvsepyan/BSBD/main/LR2/img/task1.PNG)
 
 ### pipe
 
@@ -184,7 +184,7 @@ int main()
 ```
 Результат выполнения:
 
-![](https://raw.githubusercontent.com/ARAOvsepyan/BSBD/main/LR2/img/task1.PNG/task2.PNG)
+![](https://raw.githubusercontent.com/ARAOvsepyan/BSBD/main/LR2/img/task2.PNG)
 
 ### fork
 
@@ -206,7 +206,7 @@ int main()
 
 Результат выполнения:
 
-![](https://raw.githubusercontent.com/ARAOvsepyan/BSBD/main/LR2/img/task1.PNG/task3.PNG)
+![](https://raw.githubusercontent.com/ARAOvsepyan/BSBD/main/LR2/img/task3.PNG)
 
 ### exec
 Функция `exec()` (execute) загружает и запускает другую программу. Таким образом, новая программа полностью замещает текущий процесс. Новая программа начинает свое выполнение с функции `main`. Все файлы вызывающей программы остаются открытыми. Они также являются доступными новой программе.
